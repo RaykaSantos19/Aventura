@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A história de uma Sereia</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Nas fundas águas do lago de minha casa mora uma linda sereia, suas escamas azuais brilhavam, refletindo a luz do sol</p>
+            <button class="btn-proximo" data-proximo="1">Se aproximar dela</button>
+            <button class="btn-proximo" data-proximo="2">Continuar olhando</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>"Olá", eu disse para sereia</p>
+            <p>"Olá minha amiga", ela me respondeu, "quer dar uma volta?"</p>
+            <p>Desde quando me mudei para esta casa tenho conversas com o ser místicos e vez ou outra passeio com ela naquele lago, hoje não estou muito bem, mas...</p>
+            <button class="btn-proximo" data-proximo="3">Devo dar uma volta com ela</button>
+            <button class="btn-proximo" data-proximo="4">Devo voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você fica ali olhando os suaves movimentos da sereia por um tempo e depois entra para casa e dormi a noite toda</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Então eu concordei em nadar com ela. Nós mergulhamos, até o fundo e encontramos dois caminhos, por qual devemos seguir:</p>
+            <button class="btn-proximo" data-proximo="5">Pela direta</button>
+            <button class="btn-proximo" data-proximo="6">Pela esquerda</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>"Obrigada, mas hoje não estou me sentindo muito bem", você diz se despedindo da sereia</p>
+            <p>Ela ta de um sinal, dizendo que está tudo bem e você vai embora para sua casa</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Seguindo pela direita encontramos diversos animais marinhos, até mesmo os que não costumam viver em lagos, nadamos com tartarugas e até tubarões, admiramos os lindos corais que dão outra cor ao imenso azul da água</p>
+            <button class="btn-proximo" data-proximo="7">Continuar nadando</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Pela esquerda há diversos corais e vegetações marinhas. Observamos diversas especies de algas e alguns peixer</p>
+            <button class="btn-proximo" data-proximo="7">Continuar nadando</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Depois de nadar mais um pouco voltei para casa e dormi relaxada.</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
